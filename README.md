@@ -1,4 +1,16 @@
-Sentimental Analysis of Amazon reviews It is a practice project from udemy.com to get familiar with Sentimental Analysis using NLTK .
-Here i am using "vader_lexicon" package from NLTK.
-By using polarity scores of individual reviews the final column of comp_score is predicted . 
-And at the end accuracy of model is calculated using scikit learn library.
+Sentimental Analysis of Amazon reviews 
+
+Libraries : 
+NLTK
+sklearn 
+
+Packages :
+1)nltk.sentiment
+  A SentimentAnalyzer is a tool to implement and facilitate Sentiment Analysis tasks using NLTK features and classifiers, especially for teaching and demonstrative         purposes.
+polarity_scores(text)
+  Return a float for sentiment strength based on the input text. Positive values are positive valence, negative value are negative valence.
+2)sklearn.metric 
+Accuracy paramters to check how good our module performed.
+  accuracy_score()
+  classification_report()
+  confusion_matrix()
